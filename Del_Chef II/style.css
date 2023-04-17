@@ -1,0 +1,67 @@
+header {background-color: sandybrown; 
+        height: 15vh;}
+
+main {background-color: darkkhaki; 
+      height: 70vh;}
+
+footer {background-color: sandybrown; 
+        height: 15vh}
+
+h1 {position: relative; 
+    font-family: 'Birthstone Bounce', cursive; 
+    font-size: 45px; 
+    text-align: center;
+    margin: 0;}
+
+h5 {position: relative; 
+    font-family: 'Birthstone Bounce', cursive; 
+    font-size: 30px;
+    text-align: center; 
+    margin: 0;}
+
+.container {display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center; 
+    justify-content: space-around;}    
+
+    
+.boton {background-color: sandybrown ; 
+color: black; 
+padding: 10px; 
+display: inline; 
+cursor: pointer;
+border-color: darkkhaki; 
+border-radius: 5px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: large;
+margin: 15px;}
+
+.links a {text-decoration: none;
+color:black;
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-weight: bold;
+display: block; 
+padding: 13px;
+font-size: small;} 
+
+.links {background-color: #f9f9f9;
+width: 200px; display: none;}
+
+.links a:hover {background-color: #bdb76b90 ;}
+
+.desplegable:hover .links {display: block;}
+
+.desplegable {display: flex; justify-content: space-around;}
+
+.foto1 {padding: 10px; margin: 10px;
+    border: 2px solid black;
+    width: 200;}
+.foto2 {padding: 10px; margin: 10px;
+    border: 2px solid black;
+    width: 200;}
+.foto3 {padding: 10px; margin: 10px;
+    border: 2px solid black;
+    width: 200;}
+
+div[class="images"] {display: flex;
+    justify-content: space-around;}
